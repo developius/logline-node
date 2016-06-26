@@ -43,20 +43,3 @@ module.exports = function(key) {
 
 	return this
 }
-
-var apps = ["J7NJ5OL058"];
-for (var i = 0; i < apps.length; i++){
-	var logline = module.exports(apps[i])
-	logline.fatal("this is a fatal message NUMBER2", function(error){
-		if (error) console.log(error)
-	})
-	logline.warning("this is a warning message  NUMBER2", function(error){
-		if (error) console.log(error)
-	})
-	logline.success("this is a success message  NUMBER2", function(error){
-		if (error) console.log(error)
-	})
-	logline.info("this is a info message  NUMBER2", function(error){
-		if (error) console.log(error)
-	})
-}
