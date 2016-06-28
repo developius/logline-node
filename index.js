@@ -6,7 +6,6 @@ module.exports = function(key) {
 	this.log = function(flag, message, callback) {
 		if (typeof callback != "function") callback = function(){}
 
-		var error = false
 		request({
 			url: this.endpoint + "/msg",
 			method: "GET",
