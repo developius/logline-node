@@ -1,4 +1,7 @@
 # LogLine-Node
+
+[![npm package](https://nodei.co/npm/logline-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/logline-node)
+
 LogLine is an entirely web-based logging platform. This Node.js library interfaces with it to allow you to utilise LogLine in your Node.js applications.
 
 ## Installation
