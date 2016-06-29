@@ -3,6 +3,7 @@ LogLine is an entirely web-based logging platform. This Node.js library interfac
 
 ## Installation
 The recommended way to install LogLine-Node is to use [NPM](http://npmjs.org):
+
 ```npm i logline-node```
 
 ## Example usage
