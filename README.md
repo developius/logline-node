@@ -14,7 +14,6 @@ logline.fatal("This is fatal");
 logline.info("This is info");
 logline.success("This is success");
 logline.warning("This is warning")
-}
 ```
 
 ## Tests
