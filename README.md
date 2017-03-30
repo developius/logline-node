@@ -14,7 +14,7 @@ npm i logline-node
 ## Example usage
 
 ```js
-var logline = require("./index")("your-api-key");
+var logline = require("logline-node")("your-api-key");
 
 logline.fatal("This is fatal");
 logline.info("This is info");
